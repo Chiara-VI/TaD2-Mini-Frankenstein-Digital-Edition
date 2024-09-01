@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8".>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+
+    <title>Frankenstein Edition</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Frankenstein</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="21r.html">21r</a>
+              <a class="dropdown-item" href="21v.html">21v</a>
+              <a class="dropdown-item" href="22r.html">22r</a>
+              <a class="dropdown-item" href="22v.html">22v</a>
+              <a class="dropdown-item" href="23r.html">23r</a>
+              <a class="dropdown-item" href="23v.html">23v</a>
+              <a class="dropdown-item" href="24r.html">24r</a>
+              <a class="dropdown-item" href="24v.html">24v</a>
+              <a class="dropdown-item" href="25r.html">25r</a>
+              <a class="dropdown-item" href="25v.html">25v</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1>Mary Wollstonecraft Shelley - <i>Frankenstein</i></h1>
+      
+      <div class="row">
+        <div class="col-sm-8">   
+          <p class="spaced-paragraph">Welcome to the mini digital edition of Mary Shelley's <i>Frankenstein</i>, made as a project for Text as Data II, taught at the University of Antwerp.</p>
+          <p class="spaced-paragraph">The manuscript of Frankenstein is an early draft written by Mary Wollstonecraft Shelley, with revisions by Percy Bysshe Shelley. This draft, from 1816, shows their collaborative process, including edits, deletions, and additions, providing a deep insight into the novel's creation.</p>
+          <p class="spaced-paragraph">The assignment involves creating a digital edition of Chapter 7A of Frankenstein using TEI-XML to encode the text, transforming it into HTML with XSLT, and enhancing it with JavaScript and CSS for interactivity and styling.</p>
+            <h3>The authors</h3>
+          <p class="spaced-paragraph">Mary and Percy Shelley’s relationship was highly collaborative. Percy encouraged Mary’s writing and often edited her works. Meanwhile, Mary helped preserve and promote Percy’s poetry after his death. They also shared many intellectual ideas and were part of a wider circle of Romantic writers and thinkers.</p>
+            <img src="maryandpercy.png"/>
+          <p class="spaced-paragraph">An image of Mary Shelley (left) and Percy Shelley (right)</p>
+        </div>
+            
+         <div class="col-sm-4">
+            <h3>Table of Contents</h3>
+              <ul class="list-group mb-4">
+              <li class="list-group-item"><a href="21r.html">21r</a></li>
+              <li class="list-group-item"><a href="21v.html">21v</a></li>
+              <li class="list-group-item"><a href="22r.html">22r</a></li>
+              <li class="list-group-item"><a href="22v.html">22v</a></li>
+              <li class="list-group-item"><a href="23r.html">23r</a></li>
+              <li class="list-group-item"><a href="23v.html">23v</a></li>
+              <li class="list-group-item"><a href="24r.html">24r</a></li>
+              <li class="list-group-item"><a href="24v.html">24v</a></li>
+              <li class="list-group-item"><a href="25r.html">25r</a></li>
+              <li class="list-group-item"><a href="25v.html">25v</a></li>
+              </ul>
+          
+          <h3>Relevant Links</h3>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="https://www.bodleian.ox.ac.uk/home" target="_blank">Bodleian Library</a></li>
+            <li class="list-group-item"><a href="http://shelleygodwinarchive.org/" target="_blank">Shelley Godwin Archive</a></li>
+            <li class="list-group-item"><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons License</a></li>
+            <li class="list-group-item"><a href="https://bdmpmanual.uantwerpen.be/" target="_blank">Encoding Manual</a></li>
+          </ul>
+          </div>
+        </div>
+       </div>
+    <footer class="mt-5 text-center"
+    <p class="mb-0"><b>Created by:</b> Chiara Van Imschoot</p>
+    </footer>
+        <div class="col-7" id="text"></div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
